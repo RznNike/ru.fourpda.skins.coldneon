@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "ru.fourpda.skins.coldneon"   /* обязательно переименовать "ru.fourpda.skins.ВАШЕ_ИМЯ"
+                                при добавлении скина на форум, указать данную строчку в поле "Имя скина в системе"*/
+        minSdkVersion 10
+        targetSdkVersion 25
+        versionCode 182
+        versionName "1.8.2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    outputFileName = defaultConfig.applicationId + "_" + defaultConfig.versionName + ".apk"
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+}
