@@ -10,7 +10,7 @@ android {
         minSdkVersion 10
         targetSdkVersion 25
         versionCode 182
-        versionName "1.8.2.0_no_background"
+        versionName "1.8.2.0_no_background_colored_text"
     }
     buildTypes {
         release {

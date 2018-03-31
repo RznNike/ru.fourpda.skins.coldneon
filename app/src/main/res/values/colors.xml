@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="main_bg">#00101010</color>
-    <color name="main_text">#f1f1f1</color>
+    <color name="main_text">#7ae8ff</color>
     <color name="image_gallary_bg">#000000</color>
     <color name="status_bar">#001c21</color>
     <color name="brend">#96000000</color>
@@ -42,7 +42,7 @@
     <color name="unread_text">#00d4ff</color>
     <color name="moderator_text">#FFFF0000</color>
 
-    <color name="bb_font">#f1f1f1</color>
+    <color name="bb_font">#b3f2ff</color>
     <color name="bb_link">#00d4ff</color>
     <color name="bb_node_background">#0000</color>
     <color name="bb_list_item">#FFb0b0b0</color>
