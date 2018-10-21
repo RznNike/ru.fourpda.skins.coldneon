@@ -1,16 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "ru.fourpda.skins.coldneon"   /* обязательно переименовать "ru.fourpda.skins.ВАШЕ_ИМЯ"
                                 при добавлении скина на форум, указать данную строчку в поле "Имя скина в системе"*/
         minSdkVersion 10
-        targetSdkVersion 25
-        versionCode 182
-        versionName "1.8.2.0_no_background_colored_text"
+        targetSdkVersion 28
+        versionCode 187
+        versionName "1.8.7.0_no_background_colored_text"
     }
     buildTypes {
         release {
