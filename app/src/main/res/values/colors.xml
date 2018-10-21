@@ -26,7 +26,7 @@
     <color name="comments_count_bg">#002a33</color>
 
     <color name="hidden">#FF3f0000</color>
-    <color name="deleted">#40000000</color>
+    <color name="deleted">#ff565656</color>
     <color name="global_important">#40FF0000</color>
     <color name="global_normal">#200088FF</color>
     <color name="search_post_title">#002f39</color>
@@ -85,6 +85,7 @@
     <color name="bb_cur_border">#FF004f1f</color>
     <color name="bb_cur_indent">#0f9700</color>
 
+    <color name="bb_offtop">#FF888888</color>
     <color name="bb_table_border">#FFC0C0C0</color>
 
     <!--bb text color map-->
